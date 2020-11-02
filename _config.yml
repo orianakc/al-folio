@@ -109,6 +109,8 @@ include: ['_pages']
 exclude: [vendor]
 
 # Plug-ins
+plugins: ['jekyll/scholar']
+
 plugins:
   - jekyll-email-protect
   - jekyll-github-metadata
@@ -125,7 +127,7 @@ plugins:
 
 scholar:
 
-  last_name: Einstein
+  last_name: 'Kilbourn-Ceron'
 
   style: apa
   locale: en
