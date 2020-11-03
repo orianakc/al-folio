@@ -39,16 +39,18 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: orianakc # your GitHub user name
-twitter_username: OrianaKilbourn# your Twitter handle
+twitter_username: OrianaKilbourn # your Twitter handle
 linkedin_username: orianakc # your LinkedIn user name
 scholar_userid: eYsO2woAAAAJ # your Google Scholar ID
-orcid_id: 0000-0003-4020-2355# your ORCID ID
+orcid_id: 0000-0003-4020-2355 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: ABB-5585-2020 # your ID on Publons
 research_gate_profile: Oriana_Kilbourn-Ceron # your profile on ResearchGate
 blogger_url: # your blogger URL
 keybase_username: # your keybase user name
+osf_id: d6s7w # your OSF profile ID
+semantic_scholar: Oriana-Kilbourn-Ceron/20881295 # profile name and ID
 
 contact_note: >
   Send questions via email or twitter. Use RG to easily request article pdfs. 
@@ -133,7 +135,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: kilbourn-ceron_oriana.bib
   bibliography_template: bib
 
   replace_strings: true
@@ -153,8 +155,8 @@ enable_google_analytics:  false
 enable_mansory:           true
 enable_math:              true
 enable_tooltips:          false
-enable_darkmode:          false
-show_social_icons:        false
+enable_darkmode:          true
+show_social_icons:        true
 
 # -----------------------------------------------------------------------------
 # Library versions
